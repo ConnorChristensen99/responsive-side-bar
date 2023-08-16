@@ -1,33 +1,26 @@
+/* RANDOM REACT CSS THAT I WONT TOUCH RIGHT NOW */
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  min-height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +28,184 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* END THE RANDOM CSS STUFF */
+.sideBarContainer {
+  position: absolute;
+  top: 0;
+  background-color: #11101D;
+  color: white;
+  border-radius: 10px;
+  height: 90vh;
+  text-align: left;
+  width: 300px;
+}
+.navList {
+  list-style-type: none;
+}
+.sideBarHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 25px;
+}
+.closeSideBar {
+  font-size: x-large;
+  margin-right: -25px;
+}
+.sideBarHeader span {
+  margin-left: -40px;
+  font-size: x-large;
+}
+.headerIcon {
+  margin-right: 10px;
+  margin-bottom: -3px;
+}
+.sideBarSearch input{
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 30px;
+  background-color: rgb(29,27,50);
+  margin-bottom: -60px;
+}
+.sideBarSearch input::placeholder {
+  color: rgb(202, 201, 201);
+  font-size: large;
+}
+.sideBarSearchIcon {
+  margin-bottom: -2px;
+  position: relative;
+  left: 25px;
+}
+.navList li {
+  width: 100%;
+  border-radius: 8px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.navList li:hover {
+  background-color: white;
+  color: rgb(29,27,50);
+  cursor: pointer;
+}
+.navList span {
+  padding-left: 40px;
+  padding-right: 15px;
+}
+ul.navList {
+  padding: 15px;
+}
+.profileImage {
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+.sideBarBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(29,27,50);
+  border-radius: 10px;
+}
+.sideBarBottomP {
+  margin-top: -10px;
+}
+.infoProfile {
+  padding: 10px 0;
+  font-size: smaller;
+  margin-left: -30px;
+}
+.signOut {
+  font-size: larger;
+}
+.signOut:hover {
+  color: rgb(173, 173, 177);
+  cursor: pointer;
+}
+.closeSideBar:hover {
+  cursor: pointer;
+}
+.invisible {
+  display: none;
+}
+.sideBarHeaderSmall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 25px;
+}
+.smallContainer {
+  margin-top: -40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.signOutSmall {
+  font-size: larger;
+  padding: 15px;
+  margin: 10px;
+}
+.signOutSmall:hover {
+  color: rgb(173, 173, 177);
+  cursor: pointer;
+}
+.smallSearch {
+    margin-bottom: -3px;
+    position: relative;
+    left: 35px;
+}
+.closeSideBarSmall {
+  width: 100%;
+  margin-bottom: -3px;
+  position: relative;
+  left: 1px;
+}
+.searchBack {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.searchBack:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  height: 55px;
+}
+.closeSideBarSmall {
+  position: relative;
+  right: 7px;
+}
+.closeSideBarSmall:hover {
+  cursor: pointer;
+}
+.navListSmall {
+  list-style-type: none;
+}
+.navListSmall li {
+  border-radius: 8px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-left: -40px;
+}
+.navListSmall li:hover {
+  background-color: white;
+  color: rgb(29,27,50);
+  cursor: pointer;
 }
