@@ -138,6 +138,10 @@ ul.navList {
 .invisible {
   display: none;
 }
+.active {
+  background-color: white;
+  color: rgb(29,27,50);
+}
 .sideBarHeaderSmall {
   display: flex;
   justify-content: center;
@@ -194,6 +198,7 @@ ul.navList {
 }
 .navListSmall {
   list-style-type: none;
+  height: 100%;
 }
 .navListSmall li {
   border-radius: 8px;
